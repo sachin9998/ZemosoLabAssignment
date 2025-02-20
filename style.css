@@ -416,6 +416,129 @@ nav a {
   /* height: 50%; */
 }
 
+/* ===CARDS 2 Section */
+.card2 {
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border: none;
+  outline: none;
+
+  background: white;
+  overflow: hidden;
+
+  border-radius: 8px;
+}
+
+.card2-section {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 16px;
+  margin-top: 50px;
+}
+
+.card2-content {
+  padding: 24px 16px;
+}
+
+.card2-content h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38.4px;
+  letter-spacing: 0%;
+  margin-bottom: 12px;
+}
+
+.card2-content p {
+  color: rgba(92, 89, 88, 1);
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30.6px;
+  letter-spacing: 0%;
+}
+
+.card2-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 24px;
+
+  background: rgba(243, 246, 253, 1);
+}
+
+/* ==== SECTION LINKS + SINGLE CARD */
+.bigDiv {
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
+}
+
+.bigLinks {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.big-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  /* border: 1px solid red; */
+  padding: 8px 0px;
+}
+
+.big-link-selected {
+  border-bottom: 1px solid rgba(244, 110, 87, 1);
+  color: rgba(244, 110, 87, 1);
+}
+
+.big-link-selected a {
+  color: rgba(244, 110, 87, 1);
+}
+
+.big-link-selected img {
+  /* position: absolute; */
+  /* background: rgba(244, 110, 87, 1); */
+}
+
+.bigLinks a {
+  font-weight: 400;
+  font-size: 24px;
+  /* line-height: 38.4px; */
+  letter-spacing: 0%;
+}
+
+.bigCard {
+  flex: 1;
+}
+
+.bigCardImage {
+  margin-bottom: 25px;
+}
+
+.bigCard h3 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0%;
+}
+
+.bigCard p {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30.6px;
+  letter-spacing: 0%;
+}
+
 /* TECH SECTION */
 .category {
   display: flex;
@@ -453,6 +576,141 @@ nav a {
   background: var(--gradient-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* ==== COMPANY SECTION */
+.company {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+  padding: 80px 40px;
+}
+
+.company p {
+  /* height: 80px; */
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38.4px;
+  letter-spacing: 0%;
+  /* flex: 1; */
+}
+
+.company-info {
+  flex: 1;
+}
+
+.company-img {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer Styling */
+footer {
+  width: 100%;
+  background: rgba(43, 61, 114, 1);
+  align-items: center;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27.2px;
+  letter-spacing: 0%;
+}
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  padding-top: 75px;
+  /* padding-bottom: 100px; */
+
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-logo {
+  display: flex;
+  align-self: flex-start;
+  gap: 10px;
+
+  margin-bottom: 20px;
+  /* margin-bottom: 24px; */
+}
+
+footer h1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38.4px;
+  letter-spacing: 0%;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px 0px;
+  padding-right: 25px;
+
+  border-bottom: 1px solid white;
+
+  /* border: 1px solid red; */
+}
+
+.footer-links div {
+  margin-right: 32px;
+}
+
+.footer-data {
+  display: flex;
+  border-bottom: 1px solid white;
+  /* justify-content: space-between; */
+}
+
+.footer-info {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-right: 25px;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.footer-address {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+
+  /* padding: ; */
+}
+
+.footer-address div {
+  width: 250px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30.6px;
+  letter-spacing: 0%;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 32px 0px;
 }
 
 /* Common CSS */
